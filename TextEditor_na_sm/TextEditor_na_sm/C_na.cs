@@ -18,9 +18,9 @@ namespace TextEditor_na_sm
             try
             {
                 //ORACLE 연결
-                string constr = "Data Source = (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.86.231)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = XE)));" +
-                    "User Id = c##testArticle;" +
-                    "Password = 1234 ;";
+                string constr = "Data Source = ;" +
+                    "User Id = ;" +
+                    "Password =  ;";
 
                 conn = new OracleConnection(constr);
                 conn.Open();
